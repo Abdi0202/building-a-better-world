@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a Better World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Building a Better World</h1>
+    <div class="dashboard">
+        <p>Health: <span id="health">10</span></p>
+        <p>Education: <span id="education">10</span></p>
+        <p>Environment: <span id="environment">10</span></p>
+    </div>
+    <div class="card">
+        <p id="card-text">Click a button to draw a card!</p>
+        <button onclick="drawChallengeCard()">Draw Challenge Card</button>
+        <button onclick="drawOpportunityCard()">Draw Opportunity Card</button>
+    </div>
+    <button onclick="endTurn()">End Turn</button>
+    <p id="message"></p>
+    <script src="script.js"></script>
+</body>
+</html>
